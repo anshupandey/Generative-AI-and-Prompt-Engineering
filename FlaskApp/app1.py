@@ -8,7 +8,7 @@ import openai
 from flask import Flask, request, render_template
 import json
 # create an app object of type class Flask
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def get_suggestions(prompt):
